@@ -11,13 +11,13 @@ Babsically an alternative to subsclasses for extending features.
 
 ![alt text](decorator_uml_example.png)
 
-## Implementation consideration
+## Implementation considerations
 
 - Try to avoid large states. Decorators may not need all of them.
 - With Collections, pay attention to `equals()` `and hashCode()` methods
 - It supports recursive composition, but debugging can be challenging
 
-## Design consideration
+## Design considerations
 
 - Decorators are more flexible and powerful than inheritance
 - They should be like a *skin* over your object, adding small behaviours and don't changing the meaning 
