@@ -88,8 +88,4 @@ public class Client {
 }
 ```
 
-In this example, `ConcreteHandlerA` and `ConcreteHandlerB` process specific requests, while unhandled requests are passed along the chain.Chain of Responsability
-
-A way to decouple processing handle logic delegating it to multiple objects
-
-Each handler have a reference to the next handler, util the chain finishes
+In this example, `ConcreteHandlerA` and `ConcreteHandlerB` process specific requests, while unhandled requests are passed along the chain.
